@@ -8,7 +8,7 @@ from email import encoders
 
 def SendMail(to_name, to_addr, attachment_file_path):
 
-	fromaddr = "espektro@kgec.edu.in"
+	fromaddr = "<from your email id>"
 	toaddr = to_addr
  
 	msg = MIMEMultipart()
